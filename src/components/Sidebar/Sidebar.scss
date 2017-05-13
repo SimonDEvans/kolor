@@ -1,14 +1,1 @@
 @import '../../css/Config.scss';
-
-.colour-grid {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    list-style: none;
-
-    li {
-        height: 0;
-        padding-bottom: 100%;
-        background-color: #fff;
-    }
-}
