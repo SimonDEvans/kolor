@@ -1,12 +1,18 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
 import './Home.css'
+import ColourGrid from '../../components/ColourGrid/ColourGrid'
+import Sidebar from '../../components/Sidebar/Sidebar'
 
 class Home extends Component {
   render() {
     return (
-      <div>
-        Home
+      <div className="home">
+        <div className="home__left">
+          <ColourGrid />
+        </div>
+        <div className="home__right">
+          <Sidebar />
+        </div>
       </div>
     )
   }
