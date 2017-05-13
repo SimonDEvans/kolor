@@ -1,0 +1,45 @@
+{
+  "short_name": "kolor",
+  "name": "kolor",
+  "background_color": "#2A363B",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "favicon/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon-150.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon-196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone"
+}

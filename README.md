@@ -1,0 +1,3 @@
+# kolor
+
+Simple colour palette.
