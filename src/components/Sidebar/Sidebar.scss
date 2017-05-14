@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 350px;
     height: 100vh;
     padding: 30px;
     background-color: #fff;
@@ -54,11 +54,10 @@
             letter-spacing: 1px;
             background-color: #000;
             display: inline-block;
-            transform: translate3d(0,-30%,0);
-            opacity: 0;
-            transition:
-                transform $default-transition-speed ease,
-                opacity ($default-transition-speed * 2) ease;
+            transform: translate3d(0,-50%,0);
+            transition: 
+                opacity 300ms ease,
+                transform 300ms ease;
         }
 
         &:hover {
@@ -67,8 +66,8 @@
             }
 
             span {
-                transform: translate3d(0,-50%,0);
-                opacity: 1;
+                transform: translate3d(0,0,0);
+                opacity: 0.2;
             }
         }
     }
