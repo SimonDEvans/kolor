@@ -1,5 +1,22 @@
 @import '../../css/Config.scss';
 
+.wrapper {
+    &__left,
+    &__right {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 0;
+    }
+
+    &__left {
+        width: calc(100% - 300px);
+    }
+
+    &__right {
+        width: 300px;
+    }
+}
+
 .colour-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

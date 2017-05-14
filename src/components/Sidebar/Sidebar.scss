@@ -1,7 +1,9 @@
 @import '../../css/Config.scss';
 
 .sidebar {
-  width: 100%;
-  height: 100%;
-  background-color: #eee;
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    transition:
+        background-color 300ms ease;
 }
