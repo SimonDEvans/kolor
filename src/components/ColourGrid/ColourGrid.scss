@@ -1,6 +1,8 @@
 @import '../../css/Config.scss';
 
 .wrapper {
+    display: flex;
+    
     &__left,
     &__right {
         display: inline-block;
