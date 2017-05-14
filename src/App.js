@@ -12,11 +12,7 @@ class App extends Component {
       <div className="app">
         <Router history={hashHistory}>
           <Route path='/' component={Container}>
-          
-            // Main routes
             <IndexRoute component={ColourGrid} />
-
-            // 404
             <Route path='*' component={NotFound} />
           </Route>
         </Router>
