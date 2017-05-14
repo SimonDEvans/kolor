@@ -11,16 +11,16 @@
     }
 
     &__left {
-        width: calc(100% - 300px);
+        width: calc(100% - 350px);
     }
 
     &__right {
-        width: 300px;
+        width: 350px;
     }
 }
 
 .colour-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     list-style: none;
 }
