@@ -2,14 +2,18 @@ import React, { Component } from 'react'
 import './ColourItem.css'
 
 class ColourItem extends Component {
-  render() {
+  
+  clickHandler() {
+    this.props.click();
+  }
 
+  render() {
     let style = {
       backgroundColor: this.props.colour
     }
 
     return (
-      <li className="colour-item" style={style}>
+      <li className="colour-item" style={style} onClick={this.clickHandler.bind(this)}>
         <span>{this.props.colour}</span>
       </li>
     )
