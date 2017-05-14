@@ -12,10 +12,26 @@
 
     &__left {
         width: calc(100% - 350px);
+
+        @media screen and (max-width: 800px) {
+            width: calc(100% - 250px);
+        }
+
+        @media screen and (max-width: 600px) {
+            width: calc(100% - 150px);
+        }
     }
 
     &__right {
         width: 350px;
+
+        @media screen and (max-width: 800px) {
+            width: 250px;
+        }
+
+        @media screen and (max-width: 600px) {
+            width: 150px
+        }
     }
 }
 

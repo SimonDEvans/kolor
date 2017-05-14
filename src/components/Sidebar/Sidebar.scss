@@ -10,6 +10,15 @@
     background-color: #fff;
     box-shadow: -7px 0 18px 4px rgba(0, 0, 0, 0.25);
 
+    @media screen and (max-width: 800px) {
+        width: 250px;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 150px;
+        padding: 0;
+    }
+
     &__inner {
         width: 100%;
         height: 100%;
