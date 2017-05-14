@@ -6,29 +6,7 @@ import Sidebar from '../../components/Sidebar/Sidebar'
 class ColourGrid extends Component {
 
   clickHandler() {
-
-    // Sidebar
-    const sidebarNode = document.querySelector('.sidebar')
-
-    // Sidebar item
-    const sidebarItemNode = document.createElement('div')
-
-    // Sidebar item total
-    const sidebarItemCheck = sidebarNode.children.length
-
-    // Set sidebar item props
-    sidebarItemNode.setAttribute('class', 'sidebar__item')
-    sidebarItemNode.style.backgroundColor = this.colour
-
-    // Add new item
-    if (sidebarItemCheck < 7) {
-      sidebarNode.appendChild(sidebarItemNode)
-    }
-
-    // Remove item
-    sidebarItemNode.onclick = function() {
-      this.remove()
-    }
+    
   }
 
   render() {
