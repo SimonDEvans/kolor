@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 import './ColourItem.css'
 
 class ColourItem extends Component {
-  
   clickHandler() {
-    this.props.click();
+    this.props.click()
 
     // Set vars
     let chosenColour = this.props.colour
@@ -23,29 +22,12 @@ class ColourItem extends Component {
 
     // Add new item
     if (sidebarItemCheck < 7) {
-      // sidebarNode.className = 'sidebar__inner fade-out'
         sidebarNode.appendChild(sidebarItemNode)
-
-      setTimeout(function () {
-      }, 200)
-      
-      setTimeout(function () {
-        // sidebarNode.className = 'sidebar__inner fade-in'
-      }, 400)
     }
 
     // Remove item
     sidebarItemNode.onclick = function() {
-      let item = this
-      // sidebarNode.className = 'sidebar__inner fade-out'
-        item.remove()
-
-      setTimeout(function () {
-      }, 200)
-      
-      setTimeout(function () {
-        // sidebarNode.className = 'sidebar__inner fade-in'
-      }, 400)
+      this.remove()
     }
   }
 
