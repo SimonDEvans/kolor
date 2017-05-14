@@ -1,3 +1,3 @@
 # kolor
 
-Simple colour palette.
+Pick from Material Design colours to create your own palette.
