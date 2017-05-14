@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Router, Route, IndexRoute, hashHistory } from 'react-router'
-import Home from './components/Home/Home'
+import ColourGrid from './components/ColourGrid/ColourGrid'
 import NotFound from './components/NotFound/NotFound'
 import './css/App.css'
 
@@ -14,7 +14,7 @@ class App extends Component {
           <Route path='/' component={Container}>
           
             // Main routes
-            <IndexRoute component={Home} />
+            <IndexRoute component={ColourGrid} />
 
             // 404
             <Route path='*' component={NotFound} />
